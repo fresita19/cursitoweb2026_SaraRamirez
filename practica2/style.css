@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(244, 233, 192) ;
+    font-family:Georgia, serif;
+}
+
+h1{
+    color:rgb(120, 75, 40)
+}
+
+h2{
+    color: rgb(150, 90, 120);
+}
+
+p{
+    color: rgb(50, 45, 45);
+}
+
+h3{
+    color: rgb(130, 80, 100);
+}
+
+a{
+    color: rgb(170, 90, 120);
+}
+
+ul{
+    color: rgb(70, 60, 60);
+}
+
+li{
+    color: rgb(70, 60, 60);
+}
+
+img{
+    border: 6px solid rgb(221, 145, 24)
+}
