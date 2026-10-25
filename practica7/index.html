@@ -1,14 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpookyStore 🎃 - Disfraces de Halloween</title>
-    <link rel="stylesheet" href="style.css">
+    <title>SpookyStore - Tienda de Halloween</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
 
-    <!-- Encabezado con Menú Hamburguesa -->
+    <!-- ENCABEZADO -->
     <header class="header">
         <nav class="navbar">
             <a href="#" class="logo">SpookyStore 🎃</a>
@@ -16,94 +18,174 @@
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="#inicio" class="nav-link">Inicio</a></li>
                 <li><a href="#carrusel" class="nav-link">Ofertas</a></li>
-                <li><a href="#catalog" class="nav-link">Disfraces</a></li>
-                <li><a href="#contacto" class="nav-link">Contacto</a></li>
-            </ul>
+                <li><a href="./views/products.html" class="nav-link">Disfraces</a></li>
+                <li><a href="./views/contact.html" class="nav-link">Contacto</a></li>
+            </ul>    
 
-            <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+            <button class="hamburger"
+                    id="hamburger"
+                    aria-label="Abrir menú">
+
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
+
             </button>
         </nav>
     </header>
 
-    <main>
-        <!-- Carrusel Automático de Destacados -->
+    <main id="inicio">
+
+        <!-- CARRUSEL DE OFERTAS -->
         <section id="carrusel" class="seccion-carrusel">
-            <h2>🔥 Ofertas Terroríficas</h2>
-            
+
+            <h2>Ofertas de Halloween</h2>
+
             <div class="carrusel-container">
-                <!-- Slide 1 -->
+
+                <!-- OFERTA 1 -->
                 <div class="slide active">
-                    <img src="https://images.unsplash.com/photo-1509557965875-b88c97052f0e?w=800&auto=format&fit=crop" alt="Disfraz de Bruja">
+
+                    <img
+                        src="https://images.openai.com/static-rsc-4/etbJVSGSfU-MOGULpSlSVISFrR2UnNt7K1Er2bR-Rt0xbMwq0C_0BZCXWtXcyfvYiilwWOytlR4dmB_3UewVykyDJxHilRq8bfVoLdGH5DWxZuX5t_ceqzWP03FaVBBU2EOPhVmnLWU4Gi3pl1qPSe00iU_cQF4LSbD9fUw82NaEPpUj1Ugr0SLV2okuLRZu?purpose=fullsize"
+                        alt="disfraz de bruja">
+
                     <div class="slide-caption">
-                        <h3>Disfraz de Bruja Nocturna 🧹</h3>
-                        <p>Hasta 30% de descuento esta semana</p>
+                        <h3>Noche de Halloween</h3>
+                        <p>
+                            Descubre nuestros disfraces
+                            para una noche inolvidable.
+                        </p>
                     </div>
                 </div>
 
-                <!-- Slide 2 -->
+                <!-- OFERTA 2 -->
                 <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1508361001413-7a9dca21d08a?w=800&auto=format&fit=crop" alt="Calabaza y Esqueleto">
-                    <h3>Máscaras de Neón y Esqueletos 💀</h3>
-                    <p>¡Luces LED incluidas para destacar en la noche!</p>
-                </div>
 
-                <!-- Slide 3 -->
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1572293007244-8b60335d2b7d?w=800&auto=format&fit=crop" alt="Vampiro">
+                    <img
+                        src="https://images.openai.com/static-rsc-4/CIh2-LnhlYr7rq3zhAadFzjgCXE-hEPIz8p44UJqm93A28qHoWbvfyIyjvNh6ixkbdha9PPNgHrMVsdk81JJ1RL42RpMV6ljboAvSoZcym-OV7Kl0chc5ScLeofqMX4z7NNRBarkGBoonel8T6bJUl3SCbEu2GUN4Xq_kP4Cx9FBjqvDsXlaupOkqBlvkUBY?purpose=fullsize"
+                        alt="Calabazas y telarañas JAJA">
+
                     <div class="slide-caption">
-                        <h3>Capas de Vampiro Real 🦇</h3>
-                        <p>Acabado en terciopelo y cuello alto clásico</p>
+                        <h3>Decoraciones Embrujadas</h3>
+                        <p>
+                            Transforma tu hogar con
+                            nuestras decoraciones.
+                        </p>
                     </div>
                 </div>
 
-                <!-- Botones de navegación manual opcionales -->
-                <button class="carrusel-btn prev" id="btn-prev">❮</button>
-                <button class="carrusel-btn next" id="btn-next">❯</button>
+                <!-- OFERTA 3 -->
+                <div class="slide">
+
+                    <img
+                        src="https://images.openai.com/static-rsc-4/nZVebSgfxltDxaEsG3ruNYjLyS2mQD2toSbPIGaOxm0xpod-NwDjB_oeyNdZ-CHQI38M5oH5pUOWhzzNoote7plImvRkO-6Z2BIvUreUqxVwcmWED5tXLwAfTV7v__H8MhlCLD43TTpeoAQ4l7HPLxwq0S7R7UvQ7OF0q5hP6MsExa5K_sDmWEqkpzBBbf9U?purpose=fullsize"
+                        alt="Accesorios de Halloween">
+
+                    <div class="slide-caption">
+                        <h3>Accesorios Misteriosos</h3>
+                        <p>
+                            Complementa tu disfraz
+                            con un toque de terror.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- BOTONES DEL CARRUSEL -->
+                <button class="carrusel-btn prev"
+                        id="btn-prev"
+                        aria-label="Imagen anterior">
+                    &#10094;
+                </button>
+
+                <button class="carrusel-btn next"
+                        id="btn-next"
+                        aria-label="Imagen siguiente">
+                    &#10095;
+                </button>
+
             </div>
 
-            <!-- Indicadores (puntos) -->
+            <!-- INDICADORES -->
             <div class="indicadores">
                 <span class="dot active" data-index="0"></span>
                 <span class="dot" data-index="1"></span>
                 <span class="dot" data-index="2"></span>
             </div>
+
         </section>
 
-        <!-- Catálogo de Disfraces -->
+        <!-- PRODUCTOS DESTACADOS -->
         <section id="catalog" class="seccion-catalogo">
-            <h2>Catálogo de Disfraces</h2>
+
+            <h2>Productos Destacados</h2>
+
             <div class="grid-disfraces">
+
+                <!-- PRODUCTO 1 -->
                 <article class="card">
-                    <img src="https://images.unsplash.com/photo-1509557965875-b88c97052f0e?w=400&auto=format&fit=crop" alt="Bruja">
-                    <h3>Bruja Suprema</h3>
-                    <p class="precio">$890.00 MXN</p>
-                    <button class="btn-comprar">Añadir al Carrito</button>
+
+                    <img
+                        src="https://images.openai.com/static-rsc-4/2joaT7ugUYRziVdHScxl86oD1-opGMlaLd2u_BPhAlQvsYQ63l4RLKcAN0KwlBVAR-tlWK5gASJOlstNHxcPUgqvc5S1VvfVMWedTWtioeFFxLa-M-lAlIuqeE2WgMIQNkGfKHS7dc6SRWMS4YXasE6oBIJfLESjmPX7aUlRvAA084NCJLRfVY7guOgvrUBX?purpose=fullsize"
+                        alt="Máscara Misteriosa">
+
+                    <h3>Máscara Misteriosa</h3>
+
+                    <p class="precio">$250.00 MXN</p>
+
+                    <button class="btn-comprar">
+                        Añadir al Carrito
+                    </button>
                 </article>
 
+                <!-- PRODUCTO 2 -->
                 <article class="card">
-                    <img src="https://images.unsplash.com/photo-1508361001413-7a9dca21d08a?w=400&auto=format&fit=crop" alt="Esqueleto">
-                    <h3>Traje Esqueleto LED</h3>
-                    <p class="precio">$1,150.00 MXN</p>
-                    <button class="btn-comprar">Añadir al Carrito</button>
+
+                    <img
+                        src="https://images.openai.com/static-rsc-4/6S8TojUM2MSBzdgy5fmkqZQgLWqU16HqjbwpSLpH1FHuinMuxBEpkPye9Q1VxMX7zoqIrweR7MT0OqP6yL0FW-T8P1jvM_MNSaqvJDHywhMwI4lu_zjmmPAFeFy1RY6XPQTHWJSoEjgGKh5hmpcp_MBWDs4FTBa_xv0f_IvhT663IxaAbfAIvC5vooHQYO75?purpose=fullsize"
+                        alt="Calabaza Iluminada">
+
+                    <h3>Calabaza Iluminada</h3>
+
+                    <p class="precio">$320.00 MXN</p>
+
+                    <button class="btn-comprar">
+                        Añadir al Carrito
+                    </button>
                 </article>
 
+                <!-- PRODUCTO 3 -->
                 <article class="card">
-                    <img src="https://images.unsplash.com/photo-1572293007244-8b60335d2b7d?w=400&auto=format&fit=crop" alt="Vampiro">
-                    <h3>Conde Drácula</h3>
-                    <p class="precio">$950.00 MXN</p>
-                    <button class="btn-comprar">Añadir al Carrito</button>
+
+                    <img
+                        src="https://images.openai.com/static-rsc-4/b9t9WY7t_CSZVqBXJLgA-zkkUpHjEqgDhYIgJih9mLTeW-jXMAfgZX321MUIUrXGDgcn5abnfGLTjtEYgXSfrBHZQmikP3l7lST95UftlOrDTDjkLHcUdzkW68PdrAmNPvjwXLaXyv7zVqsIPXlSer8Xj0oHTCY_j8lFywweZqm4zig8ZhTKubBS47KmLJD9?purpose=fullsize"
+                        alt="Casa Embrujada">
+
+                    <h3>Casa Embrujada</h3>
+
+                    <p class="precio">$450.00 MXN</p>
+
+                    <button class="btn-comprar">
+                        Añadir al Carrito
+                    </button>
                 </article>
+
             </div>
+
         </section>
+
     </main>
 
+    <!-- PIE DE PÁGINA -->
     <footer>
-        <p>&copy; 2026 SpookyStore. Todos los derechos reservados. 👻</p>
+        <p>
+            &copy; 2026 SpookyStore.
+            Todos los derechos reservados.
+        </p>
     </footer>
 
-    <script src="/practica7/jsjsjsjsjs/script.js"></script>
+    <!-- JAVASCRIPT -->
+    <script src="./js/script.js"></script>
+
 </body>
 </html>
