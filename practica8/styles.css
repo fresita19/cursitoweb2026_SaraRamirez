@@ -243,3 +243,71 @@ body {
         max-width: 396px;
     }
 }
+
+
+/* Página de recuperación */
+
+.recovery-page {
+    background: linear-gradient(to right, #fffefe, #f5faff);
+    min-height: 100vh;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1e21;
+}
+
+.recovery-container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.back-button {
+    display: block;
+    font-size: 42px;
+    color: #606770;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
+
+.recovery-container h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.recovery-container p {
+    font-size: 19px;
+    margin-bottom: 16px;
+}
+
+.recovery-container input {
+    width: 100%;
+    padding: 23px 20px;
+    font-size: 19px;
+    border: 1px solid #ccd0d5;
+    border-radius: 22px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.recovery-container button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #0866ff;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.recovery-container button:hover {
+    background-color: #1877f2;
+}
+
+@media (max-width: 600px) {
+    .recovery-container {
+        padding: 0 20px;
+    }
+}
+
