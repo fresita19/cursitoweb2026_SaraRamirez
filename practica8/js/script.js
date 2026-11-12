@@ -15,3 +15,23 @@ loginForm.addEventListener('submit', (e) => {
 btnCreateAccount.addEventListener('click', () => {
     alert('[SIMULACIÓN EN CLASE]\nAquí se abriría la ventana emergente para crear una cuenta nueva.');
 });
+
+// RECUPERAR CONTRASEÑA
+const recoveryForm = document.getElementById('recovery-form');
+const btnRecoveryAccount = document.getElementById('btn-create-account');
+
+if (recoveryForm) {
+    recoveryForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const recoveryEmail = document.getElementById('recovery-email').value;
+
+        if (recoveryEmail) {
+            alert('[SIMULACIÓN EN CLASE]\nSolicitud de recuperación recibida correctamente.');
+        }
+    });
+    
+btnCreateAccount.addEventListener('click', () => {
+    alert('[SIMULACIÓN EN CLASE]\nAquí se abriría la ventana emergente para crear una cuenta nueva.');
+});    
+}
